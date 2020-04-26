@@ -24,13 +24,13 @@ const showItems = (array) => {
     homeDiv.appendChild(prodCard);
   });
 };
-showItems(camisas.slice(0, 6));
+showItems(camisas);
 
 const handleSearch = (event) => {
   event.preventDefault();
   const query = event.target.query.value.toLowerCase();
   if (!query) {
-    showItems(camisas.slice(0, 6));
+    showItems(camisas);
     return;
   }
   const result = camisas.filter((item) =>
