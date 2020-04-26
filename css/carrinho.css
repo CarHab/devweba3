@@ -1,0 +1,11 @@
+section {
+  min-height: 65vh;
+}
+
+.carrinho-thumb {
+  height: 100px;
+}
+
+.cupomErro {
+  margin-top: -15px;
+}

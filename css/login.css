@@ -1,0 +1,31 @@
+.main-color {
+  background-color: #333 !important;
+}
+
+.main-color-text {
+  color: #333;
+}
+
+.btn-main-color:hover {
+  background-color: #444444 !important;
+}
+
+.main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background-color: white;
+}
+
+.test {
+  margin: 10px;
+  background-color: #cecece;
+  padding: 5px;
+}
+
+
+

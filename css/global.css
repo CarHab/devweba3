@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+* {
+  border-radius: 0 !important;
+}
+
+body {
+  background-color: #cecece !important;
+}
+
+.main-color {
+  background-color: #333 !important;
+}
+
+.btn-main-color:hover {
+  background-color: #444444 !important;
+}
+
+.main-color-text {
+  color: #333;
+}
+
+.logo {
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.somer {
+  color: #565959;
+}
+
+.veller {
+  color: #d9aa55;
+}
+
+.brand-yellow {
+  text-decoration: none !important;
+  color: #bf9663 !important;
+}
+
+.brand-yellow:hover {
+  color: #d9aa55 !important;
+}
+
+.btn-brand-yellow {
+  color: #d9aa55;
+}
+
+.footer-list {
+  list-style-type: none;
+  background-color: #333;
+  font-size: 1.2em;
+}
+
+.footer-list-item {
+  padding: 5px;
+}
+
+.footer-list-item-link {
+  text-decoration: none !important;
+  color: #bf9663 !important;
+}
+
+.footer-list-item-link:hover {
+  color: #d9aa55 !important;
+}
+
+.item:hover {
+  animation: item-hover 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes item-hover {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(1.009, 1.009);
+  }
+}
