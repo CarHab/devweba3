@@ -8,7 +8,7 @@ const getNome = () => {
   if (id) {
     const username = document.getElementById('username');
     username.innerHTML = localStorage.getItem('nome');
-    username.href = `./perfil.html`;
+    username.href = './perfil.html';
     $('#loginLink').addClass('d-none');
     $('#usernameLi').removeClass('d-none');
   } else {
