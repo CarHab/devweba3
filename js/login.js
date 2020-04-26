@@ -13,7 +13,7 @@ const handleLogin = (event) => {
     localStorage.setItem('endereco', cliente.endereco);
     localStorage.setItem('email', cliente.email);
 
-    window.location.href = `/index.html`;
+    window.location.href = `./index.html`;
   } else {
     $('#erro').removeClass('d-none');
     $('#erro').addClass('d-initial');

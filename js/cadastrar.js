@@ -26,7 +26,7 @@ const handleCadastro = (event) => {
   localStorage.setItem('endereco', dados.endereco);
   localStorage.setItem('senha', dados.senha);
 
-  window.location.href = '/index.html';
+  window.location.href = './index.html';
 };
 
 const validarDados = ({
