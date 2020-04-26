@@ -24,13 +24,13 @@ const showItems = (array) => {
     homeDiv.appendChild(prodCard);
   });
 };
-showItems(calcas.slice(0, 6));
+showItems(calcas);
 
 const handleSearch = (event) => {
   event.preventDefault();
   const query = event.target.query.value.toLowerCase();
   if (!query) {
-    showItems(calcas.slice(0, 6));
+    showItems(calcas);
     return;
   }
   const result = calcas.filter((item) =>

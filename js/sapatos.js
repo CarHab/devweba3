@@ -24,13 +24,13 @@ const showItems = (array) => {
     homeDiv.appendChild(prodCard);
   });
 };
-showItems(sapato.slice(0, 6));
+showItems(sapato);
 
 const handleSearch = (event) => {
   event.preventDefault();
   const query = event.target.query.value.toLowerCase();
   if (!query) {
-    showItems(sapato.slice(0, 6));
+    showItems(sapato);
     return;
   }
   const result = sapato.filter((item) =>
