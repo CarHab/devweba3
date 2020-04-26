@@ -2,9 +2,7 @@ const homeDiv = document.querySelector('#produtos-div');
 
 const showItems = (array) => {
   homeDiv.innerHTML = '';
-  let count = 0;
   array.forEach((item) => {
-    count++;
     const prodCard = document.createElement('div');
     prodCard.classList.add('col-12');
     prodCard.classList.add('col-sm-6');
