@@ -86,5 +86,16 @@ const prods = [
     categoria: 'sapato',
     descricao:
       'Camiseta confeccionada com amor e muito cuidado, o algodão além de ser confortável proporciona uma melhor transpiração. possui gola redonda, mangas curtas e estampa frontal com mensagens de amor. e pra você, o que é básico e essencial? Para o time Somerveller, básico é estar sempre junto, e nesse momento estamos juntos, mesmo à distância. cuide-se!',
+  },
+  {
+    id: 9,
+    nome: 'Jaqueta jeans 2',
+    cor: 'Azul',
+    preco: '50.00',
+    foto: 'homi3.jpeg',
+    estoque: 828,
+    categoria: 'camisa',
+    descricao:
+      'Jaqueta jeans moletom masculina, confeccionada em tecido jeans de algodão e elastano. O jeans está sempre em alta, independente de qualquer tendência ou moda. Esse modelo em moletom Denim traz um aspecto jeans com toda a elasticidade de um moletom. Possui uma modelagem fluída com um caimento perfeito ao corpo, fechamento por botões, bolsos frontais e costura em cor contrastante. Destaque para os processos de lavanderia, tornando-a única e cheia de estilo. Invista!',
   }
 ];
